@@ -1,0 +1,156 @@
+/********** Base styles **********/
+/** HEADER **/
+#header-nav {
+  background-color: #fff000;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-brand h1 { 
+
+
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  background-color:#fff000;
+  color: #01579b;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.item{
+background-color:#C1C1C1;
+padding:10px;
+margin:5px;
+}
+
+.Menu{
+  text-align:center;
+}
+.clearfix {
+  overflow: auto;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #01579b;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -20px;
+}
+/* END HEADER */
+
+
+/* Simple Responsive Framework. */
+/*------ Desktop Version ------*/
+@media (min-width: 992px){
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;  
+  }
+  .col-lg-4 {
+    /*width: 33.33%; */
+	width: 100%;
+  }
+
+
+}
+
+
+/*------ Tablet Version ------*/
+@media (min-width: 768px) and (max-width: 991px){
+  .navbar-brand {
+    padding-top: 20px;
+    padding-bottom:15px;
+
+  }
+.navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-brand h1 { 
+
+
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+  .col-lg-4 {
+    /*width: 33.33%; */
+	width: 100%;
+    float: left;
+  }
+  .col-lg-tablet{
+   width: 100%;
+   float: left;
+ }
+}
+
+
+/*------ Mobile Version ------*/
+@media (max-width: 767px){
+  /* Header */
+  .navbar-brand {
+    padding-top: 15px;
+    padding-bottom:15px;
+    height: 30px;
+  }
+.navbar-brand h1 { 
+
+
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+
+
+  /* End Header */
+
+  .col-lg-4{
+    width: 100%;
+    float: left;
+  }
+}
